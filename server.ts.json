@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist/server",
+    "baseUrl": "./",
+    "typeRoots": ["@types", "typings"],
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "mysql", "public"],
+  "include": ["server/**/*.ts"]
+}
